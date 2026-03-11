@@ -1,6 +1,6 @@
 {
   "name": "yolken-test-3-11-2",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "The official TypeScript library for the Yolken Test 3 11 2 API",
   "author": "Yolken Test 3 11 2 <benjamin@stainless.com>",
   "types": "dist/index.d.ts",
