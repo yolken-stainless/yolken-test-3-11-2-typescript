@@ -1,0 +1,18 @@
+{
+  "extends": "./tsconfig.json",
+  "include": ["dist/src"],
+  "exclude": [],
+  "compilerOptions": {
+    "rootDir": "./dist/src",
+    "paths": {
+      "yolken-test-3-11-2/*": ["./dist/src/*"],
+      "yolken-test-3-11-2": ["./dist/src/index.ts"]
+    },
+    "noEmit": false,
+    "declaration": true,
+    "declarationMap": true,
+    "outDir": "dist",
+    "pretty": true,
+    "sourceMap": true
+  }
+}
